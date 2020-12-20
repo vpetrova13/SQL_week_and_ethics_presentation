@@ -1,7 +1,0 @@
-"0","
-SELECT count(e.id), e.team_id, t.name
-FROM employees as e left join teams as t on e.team_id = t.id
-where e.first_name LIKE '_'
-GROUP BY t.name, e.team_id
-
-"

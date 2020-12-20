@@ -1,4 +1,0 @@
-"0","```r
-result_set <- dbSendQuery(conn = db_connection,
-                          statement = \" SELECT * FROM employees;\")
-```"

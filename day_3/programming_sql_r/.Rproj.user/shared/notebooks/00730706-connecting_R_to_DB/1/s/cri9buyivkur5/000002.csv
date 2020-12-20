@@ -1,6 +1,0 @@
-"0","```r
-all_remaining <- dbFetch(res = result_set, n = -1)
-nrow(all_remaining)
-```"
-"1","[1] 910
-"

@@ -1,5 +1,0 @@
-"0","
-SELECT *
-FROM employees
-WHERE email NOT LIKE '%@%' OR email IS NULL ;
-"

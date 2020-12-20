@@ -1,7 +1,0 @@
-"0","```r
-class(result_set)
-```"
-"1","[1] \"PqResult\"
-attr(,\"package\")
-[1] \"RPostgres\"
-"

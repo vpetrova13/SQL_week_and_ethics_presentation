@@ -1,6 +1,0 @@
-"0","```r
-data <- dbGetQuery(conn = db_connection, 
-                   statement = \"SELECT * FROM employees;\")
-
-data
-```"

@@ -1,4 +1,0 @@
-"0","```r
-next_10 <- dbFetch(res = result_set, n = 10)
-next_10
-```"

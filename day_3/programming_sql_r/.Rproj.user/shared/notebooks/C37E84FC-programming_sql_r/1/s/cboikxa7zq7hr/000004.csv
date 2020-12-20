@@ -1,4 +1,0 @@
-"0","total_score <- inner_join(clean_feedbacks, sentiment_words, by = c(""message""=""word"")) %>% "
-"0","  mutate(total_score_sum = sum(score))"
-"0",""
-"0","total_score"

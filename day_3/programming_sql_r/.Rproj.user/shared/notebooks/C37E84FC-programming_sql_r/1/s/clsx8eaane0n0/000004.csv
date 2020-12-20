@@ -1,7 +1,0 @@
-"0","employees_teams_feedbacks <- employees_teams_feedbacks %>%"
-"0","  mutate("
-"0","    message = str_to_lower(message),"
-"0","    message = str_remove_all(message, ""[[:punct:]]""), # remove punctuation"
-"0","    message = str_squish(message), # all internal whitespace goes to single space"
-"0","    message = str_trim(message) # leading and trailing whitespace removed"
-"0","  )"

@@ -1,6 +1,0 @@
-"0","
-SELECT f.date, e.first_name, e.last_name, e.id
-FROM feedbacks as f left join employees as e on f.employee_id = e.id
-ORDER BY f.date DESC 
-LIMIT 1;
-"

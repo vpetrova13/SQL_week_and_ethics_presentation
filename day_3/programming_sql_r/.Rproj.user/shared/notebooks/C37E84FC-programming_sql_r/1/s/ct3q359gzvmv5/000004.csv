@@ -1,7 +1,0 @@
-"0","
-SELECT count(id), team_id
-FROM employees
-where first_name LIKE '_'
-GROUP BY team_id
-
-"

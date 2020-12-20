@@ -1,3 +1,0 @@
-"0","empl_teams <- left_join(employees, teams, by = c(""team_id"" = ""id""))"
-"0",""
-"0","empl_teams"

@@ -1,4 +1,0 @@
-"0","clean_message <- function(message){"
-"0","  message <- tolower(message)"
-"0","  message <- gsub(message, pattern = ""[[:punct:]]"", replacement = """")"
-"0","}"
