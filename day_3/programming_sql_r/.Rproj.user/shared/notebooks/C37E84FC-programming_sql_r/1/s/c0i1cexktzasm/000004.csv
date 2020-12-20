@@ -1,0 +1,4 @@
+"0","teams <- dbGetQuery(db_connection, "
+"0","                        statement = ""SELECT * FROM teams;"")"
+"0",""
+"0","teams"

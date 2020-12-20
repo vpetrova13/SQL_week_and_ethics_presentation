@@ -1,0 +1,7 @@
+"0","```r
+dbListFields(conn = db_connection, name = \"employees\")
+```"
+"1"," [1] \"id\"            \"first_name\"    \"last_name\"     \"email\"         \"department\"   
+ [6] \"team_id\"       \"grade\"         \"country\"       \"fte_hours\"     \"pension_enrol\"
+[11] \"salary\"        \"pay_detail_id\" \"start_date\"   
+"

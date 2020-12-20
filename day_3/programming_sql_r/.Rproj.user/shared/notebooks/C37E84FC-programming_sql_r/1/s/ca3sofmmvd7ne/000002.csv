@@ -1,0 +1,7 @@
+"0","selector <- employees_teams_feedbacks[, 'score'] == max(employees_teams_feedbacks[, 'score']) "
+"0","mostpos_employees_teams <- employees_teams_feedbacks[selector, ""team_name""]"
+"0","mostpos_employees_teams"
+"1","[1]"
+"1"," ""Risk Team 1"""
+"1","
+"

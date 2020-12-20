@@ -1,0 +1,8 @@
+"0","clean_feedbacks <- feedbacks %>% "
+"0","  select(message) %>% "
+"0","  mutate(message = str_to_lower(message)) %>% "
+"0","  mutate(message = str_remove_all(message, ""[:punct:]"")) %>% "
+"0","  mutate(message = str_squish(message)) %>% "
+"0","  mutate(message = str_trim(message))"
+"0",""
+"0","clean_feedbacks"

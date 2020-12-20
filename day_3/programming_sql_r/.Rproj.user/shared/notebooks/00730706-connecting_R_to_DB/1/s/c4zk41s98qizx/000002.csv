@@ -1,0 +1,8 @@
+"0","```r
+dbDisconnect(conn = db_connection)
+```"
+"1","Already disconnected
+"
+"0","```r
+rm(db_connection)
+```"

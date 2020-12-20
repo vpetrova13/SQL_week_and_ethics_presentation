@@ -1,0 +1,3 @@
+"0","employees_teams_feedbacks_scores %>%"
+"0","  filter(score == min(score)) %>%"
+"0","  select(team_name)"

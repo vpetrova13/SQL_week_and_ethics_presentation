@@ -1,0 +1,8 @@
+"0","SELECT 
+  e.*, 
+  f.message,
+  f.id AS message_id,
+  t.name AS team_name
+FROM employees AS e LEFT JOIN teams AS t
+ON e.team_id = t.id INNER JOIN feedbacks AS f
+ON f.employee_id = e.id"

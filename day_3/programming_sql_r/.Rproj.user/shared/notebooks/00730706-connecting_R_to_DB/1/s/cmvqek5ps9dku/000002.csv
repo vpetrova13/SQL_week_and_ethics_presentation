@@ -1,0 +1,15 @@
+"0","```r
+source(\"~/omni_credentials.R\")
+
+db_connection <- dbConnect(
+  drv = Postgres(),
+  user = omni_username,
+  password = omni_password,
+  dbname = \"omni_pool\", 
+  host = \"db-postgresql-lon1-94437-do-user-4831272-0.a.db.ondigitalocean.com\",
+  port = 25061,
+  bigint = \"numeric\"
+)
+
+rm(omni_password, omni_username)
+```"

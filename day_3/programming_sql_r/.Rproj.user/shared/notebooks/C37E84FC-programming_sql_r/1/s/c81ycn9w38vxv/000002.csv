@@ -1,0 +1,18 @@
+"0","WITH counts_only_first_initial(team_name, num_only_first_initial) AS (
+  SELECT 
+    t.name,
+    COUNT(e.id)
+  FROM employees AS e LEFT JOIN teams AS t
+  ON e.team_id = t.id
+  WHERE e.first_name LIKE '_'
+  GROUP BY t.name
+)
+SELECT 
+  team_name,
+  num_only_first_initial
+FROM counts_only_first_initial
+WHERE num_only_first_initial = (
+  SELECT 
+    MAX(num_only_first_initial)
+  FROM counts_only_first_initial
+)"

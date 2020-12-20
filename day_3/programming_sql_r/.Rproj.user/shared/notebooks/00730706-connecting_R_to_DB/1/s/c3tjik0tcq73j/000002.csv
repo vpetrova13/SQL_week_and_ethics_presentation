@@ -1,0 +1,5 @@
+"0","```r
+first_10 <- dbFetch(res = result_set, n = 10)
+```"
+"1","Error: Invalid result set
+"

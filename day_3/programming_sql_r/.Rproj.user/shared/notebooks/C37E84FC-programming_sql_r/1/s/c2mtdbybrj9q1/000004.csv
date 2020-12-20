@@ -1,0 +1,6 @@
+"0","
+SELECT *
+FROM feedbacks
+ORDER BY date DESC 
+LIMIT 1;
+"
